@@ -1,0 +1,146 @@
+/* * {
+    outline: 1px solid green;
+} */
+
+body {
+    background-color: rgb(243, 210, 80);
+    /* padding: 20px; */
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.5em;
+}
+
+body > h3 {
+    margin: 2em;
+}
+
+ul {
+    padding-left: 2em;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+}
+
+.html-table {
+    width: 100%;
+}
+
+.html-text {
+    width: 70%;
+}
+
+.html-radio {
+    width: 7%;
+    height: 7%;
+}
+
+.html-button {
+    width: 5em;
+    height: 1.6em;
+    /* font-size: 1em; */
+}
+
+.css-background {
+    background-color: red;
+    color: whitesmoke;
+    padding: 2em 0 2em 1em;
+    max-width: 100%;
+}
+
+.css-opacity {
+    background-color: green;
+    opacity: calc(1 / var(--opacity));
+    width: 2em;
+    height: 1em;
+}
+
+.css-line-height {
+    line-height: 2em;
+}
+
+.css-text-transform {
+    text-transform: uppercase;
+}
+
+.css-border {
+    background-color: lightgray;
+    border: 2px dotted red;
+    height: 2em;
+    width: 2em;
+}
+
+.css-font-size {
+    font-size: 1.5em;
+}
+
+.highlight-text {
+    background-color: rgb(243, 210, 80);
+}
+
+.grid-container {
+    display: grid;
+    gap: 40px 30px;
+    width: 100px;
+}
+
+.grid-item {
+    background-color: rgb(236, 236, 236);
+    padding: 1em;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+.grid-html,
+.grid-css {
+    grid-template-columns: 1fr;
+}
+
+.grid-protocol {
+    grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 320px) {
+    body {
+        font-size: 0.7em;
+    }
+
+    .grid-container {
+        width: 300px;
+    }
+
+    .grid-html,
+    .grid-css {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-protocol {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+    
+    .grid-container {
+        width: 740px;
+    }
+
+    .grid-html,
+    .grid-css {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+
+    .grid-protocol {
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .grid-container {
+        width: 1000px;
+    }
+} 

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Handbook</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Handbook</h1>
+
+        <h3>HTML</h3>
+        <div class="centered-container">
+            <div class="grid-container grid-html">
+    
+                <div class="grid-item">
+                    <h3>h1</h3>
+                    <p>The h1 to h6 tags are used to define HTML headigs</p>
+                    <br><br>
+                    <p>&lt;h1&gt;Title&lt;/h1&gt;</p>
+                    <h1>Title</h1>
+                </div>
+    
+                <div class="grid-item">
+                    <h3>table</h3>
+                    <p>Defines an HTML table</p>
+                    <br><br>
+                    <p>&lt;table&gt;&lt;/table&gt;</p>
+                    <table class="html-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>var 1</th>
+                                <th>var 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mico</td>
+                                <td>2</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+    
+                <div class="grid-item">
+                    <h3>hr</h3>
+                    <p>Draws a horizontal line</p>
+                    <br><br>
+                    <p>&lt;hr&gt;</p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Etiam dui dui, consequat
+                        viverra nisl eu, malesuada luctus diam.
+                    </p>
+                    <hr>
+                </div>
+    
+                <div class="grid-item">
+                    <h3>input</h3>
+                    <p>Designed to create text fields, various buttons and checkboxes</p>
+                    <br><br>
+                    <p>&lt;input&gt;</p>
+                    <strong>Your name</strong> <br>
+                    <input type="text" class="html-text"> <br> <br>
+                    <strong>Question</strong> <br>
+                    <input type="radio" class="html-radio">
+                    <label>answer</label> <br>
+                    <input type="radio" class="html-radio">
+                    <label>answer</label> <br>
+                    <input type="radio" class="html-radio">
+                    <label>answer</label> <br> <br> <br>
+                </div>
+
+                <div class="grid-item">
+                    <h3>button</h3>
+                    <p>Clickable button</p>
+                    <br><br>
+                    <p>&lt;button&gt;Button<wbr>&lt;/button&gt;</p>
+                    <button class="html-button">Button</button>
+                </div>
+    
+            </div>
+        </div>
+    
+        <h3>CSS</h3>
+        <div class="centered-container">
+            <div class="grid-container grid-css">
+                
+                <div class="grid-item">
+                    <h3>background</h3>
+                    <p>Specifies teh background of the element</p>
+                    <br><br>
+                    <p>background: [];</p>
+                    <div class="css-background">Lorem Ipsum</div>
+                </div>
+
+                <div class="grid-item">
+                    <h3>opacity</h3>
+                    <p>Specifies the opacity/transparency of an element</p>
+                    <br><br>
+                    <p>opacity: [];</p>
+                    <div class="css-opacity" style="--opacity: 1"></div>
+                    <div class="css-opacity" style="--opacity: 2"></div>
+                    <div class="css-opacity" style="--opacity: 3"></div>
+                    <div class="css-opacity" style="--opacity: 4"></div>
+                </div>
+
+                <div class="grid-item">
+                    <h3>line-height</h3>
+                    <p>Specifies the height of a line</p>
+                    <br><br>
+                    <p>line-height: [];</p>
+                    <div class="css-line-height">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <h3>text-transform</h3>
+                    <p>Controls the capitalization of the text</p>
+                    <br><br>
+                    <p>text-transform: [];</p>
+                    <p class="css-text-transform">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="grid-item">
+                    <h3>border</h3>
+                    <p>Specifies the style of the border</p>
+                    <br><br>
+                    <p>border: [];</p>
+                    <div class="css-border"></div>
+                </div>
+
+                <div class="grid-item">
+                    <h3>font-size</h3>
+                    <p>Specifies the font sizeof the element</p>
+                    <br><br>
+                    <p>font-size: [];</p>
+                    <p class="css-font-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+            </div>
+        </div>
+    
+    
+        <h3>Protocols</h3>
+        <div class="centered-container">
+            <div class="grid-container grid-protocol">
+
+                <div class="grid-item">
+                    <h3>HTTP methods</h3>
+                    <p>GET - the method is used to retrieve a representation of a resource from the server. </p>
+                    <p>POST - the method is used to submit data to the server to create a new resource.</p>
+                    <p>PUT - the method is used to update or replace an existing resource on the server. </p>
+                    <p>PATCH - the method is used to partially update an existing resource on the server. </p>
+                    <p>DELETE - the method is used to remove a resource from the server.</p>
+                </div>
+
+                <div class="grid-item">
+                    <h3>HTTP status codes</h3>
+                    <ul>
+                        <li>1xx: Informational responses</li>
+                        <li>2xx: Successful responses</li>
+                        <li>3xx: Redirection messages</li>
+                        <li>4xx: Client error responses</li>
+                        <li>5xx: Server error responses</li>
+                    </ul>
+                    <p>Examples:</p>
+                    <ul>
+                        <li>100 - Continue</li>
+                        <li>201 - Created</li>
+                        <li>310 - Moved permamentaly</li>
+                        <li>404 - Not found</li>
+                        <li>500 - Internal server error</li>
+                    </ul>
+                </div>
+
+                <div class="grid-item">
+                    <h3>DNS list of types</h3>
+                    <ul>
+                        <li>
+                            A (Address) Record: This record maps a domain name to an IPv4 address.
+                            It is used to translate human-readable domain names into machine-readable
+                            IP addresses. 
+                        </li>
+                        <li>
+                            AAAA (IPv6 Address) Record: Similar to the A record, the AAAA record maps
+                            a domain name to an IPv6 address. It is used for translating domain names
+                            to IPv6 addresses.
+                        </li>
+                        <li>
+                            CNAME (Canonical Name) Record: The CNAME record creates an alias for a
+                            domain name and points it to another domain name. It is commonly used
+                            to map subdomains or alternative domain names to the primary domain.
+                        </li>
+                        <li>
+                            MX (Mail Exchanger) Record: The MX record specifies the mail server
+                            responsible for handling incoming email for a domain. It defines the
+                            domain name of the mail server and its priority for handling mail delivery.
+                        </li>
+                        <li>
+                            TXT (Text) Record: The TXT record is used to store arbitrary text data
+                            associated with a domain. It is commonly used for various purposes such
+                            as domain verification, SPF (Sender Policy Framework) records for email
+                            authentication, and providing additional information about a domain.
+                        </li>
+                        <li>
+                            NS (Name Server) Record: The NS record specifies the authoritative name
+                            servers for a domain. It identifies the DNS servers that are responsible
+                            for serving DNS records for a particular domain.
+                        </li>
+                        <li>
+                            PTR (Pointer) Record: The PTR record is used in reverse DNS lookups.
+                            It maps an IP address to a domain name, allowing you to find the domain
+                            associated with a given IP address.
+                        </li>
+                        <li>
+                            SRV (Service) Record: The SRV record is used to specify the location of
+                            a specific service within a domain. It provides information about the
+                            hostname, port, priority, weight, and other details of a particular service.
+                        </li>
+                        <li>
+                            SOA (Start of Authority) Record: The SOA record provides authoritative
+                            information about a DNS zone. It includes details such as the primary
+                            name server for the domain, the contact email address of the domain
+                            administrator, zone serial number, and other configuration parameters.
+                        </li>
+                        <li>
+                            SPF (Sender Policy Framework) Record: The SPF record is used to specify
+                            the authorized sending mail servers for a domain. It helps prevent email
+                            spoofing and verifies the authenticity of the email sender.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid-item">
+                    <h3>Identify Google's IP</h3>
+                    <p>To identify google.com.ua IP, follow the next steps:</p>
+                    <ol>
+                        <li>Open Terminal</li>
+                        <li>Run the command <span class="highlight-text">nslookup google.com.ua</span></li>
+                    </ol>
+                    <p>
+                        As a result, you will receive "name" and "address": <br>
+                        Name: <span class="highlight-text">google.com.ua</span>  <br>
+                        Address: <span class="highlight-text">216.58.215.99</span> <br>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
